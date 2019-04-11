@@ -51,3 +51,7 @@
     "typescript": "~2.5.3"
   }
 }
+"scripts": {
+  "pree2e": "webdriver-manager update --standalone false --gecko false",
+  "e2e": "protractor"
+},
