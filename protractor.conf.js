@@ -9,7 +9,6 @@ exports.config = {
     './e2e/**/*.e2e-spec.ts'
   ],
   capabilities: {
-    ...,
     chromeOptions: {
         args: ["--headless", "--disable-gpu", "--window-size=800x600"]
     }
