@@ -5,12 +5,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-     "start": "concurrently -c \"yellow.bold,green.bold\" -n \"SERVER,BUILD\" \"nodemon server\" \"ng build --watch\"",
+     
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    
   },
   "private": true,
   "dependencies": {
@@ -28,7 +28,7 @@
     "express": "^4.16.3",
     "jsonwebtoken": "^8.2.2",
     "mongoose": "^5.1.4",
-    "nodemon": "^1.17.5",
+   
       "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"
   },
@@ -41,7 +41,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "^4.0.1",
-    "concurrently": "^3.5.1",
+   
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~2.0.0",
