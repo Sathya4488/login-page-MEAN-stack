@@ -20,12 +20,17 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     
-    reporters: ['progress', 'kjhtml'],
+    reporters: ['progress'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
-    singleRun: false
+    browsers: ['ChromeHeadless'],
+    autoWatch: false,
+    singleRun: false,
+    colors: true,
+    logLevel: config.LOG_INFO,
+    concurrency: Infinity
+     
+    
   });
 };
